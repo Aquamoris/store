@@ -1,0 +1,52 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.header img {
+    width: 30px;
+}
+
+.headerWrapper {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+/*//border: solid 1px red;*/
+    height: 100%;
+    width: 10%;
+}
+
+.mainMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+/*//border: solid 1px red;*/
+}
+
+.shopping {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/*//border: solid 1px red;*/
+    height: 100%;
+    width: 10%;
+}
