@@ -1,0 +1,114 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: black;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer h4{
+    color: white;
+}
+
+.footerWrapper {
+    height: 100%;
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sections {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60%;
+}
+
+.information {
+    width: 25%;
+}
+
+.social {
+    width: 25%;
+}
+
+.contacts {
+    width: 25%;
+}
+
+.footerTop {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer img {
+    width: 45px;
+    height: 45px;
+}
+
+.socialImg {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBot {
+    height: 100px;
+    display: flex;
+}
+
+.footerItem {
+    width: 25%;
+    height: 100%;
+}
+
+.copyrightMark {
+    display: flex;
+    align-items: flex-end;
+}
+
+.laws {
+    display: flex;
+    align-items: flex-end;
+}
+
+.privacy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.privacy a {
+    text-decoration: underline;
+}

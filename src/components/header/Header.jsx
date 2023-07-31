@@ -14,11 +14,11 @@ const Header = () => {
                 <NavLink to={'/'}>LOGO</NavLink>
             </div>
             <div className={style.mainMenu}>
-                <NavLink to={'/'}>ОДЕЖДА</NavLink>
-                <NavLink to={'/'}>ОБУВЬ</NavLink>
-                <NavLink to={'/'}>БРЕНДЫ</NavLink>
-                <NavLink to={'/'}>ЗАКАЗ</NavLink>
-                <NavLink to={'/'}>ИНФОРМАЦИЯ</NavLink>
+                <NavLink to={'/clothes/'}>ОДЕЖДА</NavLink>
+                <NavLink to={'/shoes/'}>ОБУВЬ</NavLink>
+                <NavLink to={'/brands/'}>БРЕНДЫ</NavLink>
+                <NavLink to={'/order/'}>ЗАКАЗ</NavLink>
+                <NavLink to={'/info/'}>ИНФОРМАЦИЯ</NavLink>
             </div>
             <div className={style.shopping}>
                 <NavLink to={'/'}>
